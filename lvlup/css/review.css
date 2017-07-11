@@ -1,0 +1,100 @@
+/* ================
+   ===== HOME =====
+   ================*/
+ body{
+	/* background-color: #1A2231;*/
+	 font-family:sans-serif;
+} 
+#menu-review{
+    background-color: #000000;
+    border-radius: 25px 25px 0px 0px;
+}  
+#contenedor {
+    width: 100%;
+	height: auto;
+    /*background-color: #1A2231;*/
+	color:white;
+}
+#contenido {
+    width: 70%;
+    background-color:#E6FAFF;
+    color:#3A3A3A;
+    /*font-weight:bold;*/
+    margin: 5%;
+    clear:left;
+    border-collapse: separate;
+    display:inline-block;
+	margin-bottom:25px;
+	margin-top:20px;
+}
+#divClear {
+    clear: left;
+}
+#review{
+	/*width:745px;*/
+	background-color:#E6FAFF;
+	color:#3A3A3A;
+	padding:5px;
+	margin:20px 10%;
+	clear:left;
+	border-collapse: separate;
+	display:inline-block;
+}
+ #review h1{
+	 padding: 5px;
+	 font-size: 2.5em;
+	 padding-left:20px;
+ } 
+ 
+ #titulari
+ {
+	 text-align: center;
+ }
+ 
+ .rating
+ {
+	 text-align: center;
+ }
+ 
+ #info
+ {
+	 text-align: center;
+ }
+
+ 
+ #review video{
+	width:800px;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	padding:20px;
+}
+ #review img{
+	width:800px;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	padding:20px;
+}
+ #review p{
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+	text-align:justify;
+}
+
+#datos-review #ranking{
+	height: 20px;
+	width:auto;
+	float:left;
+	padding:10px 20px 10px 20px ;
+	
+}
+#usuario{
+	float:left;
+	padding:10px 20px ;
+}
+#fecha{
+	float:left;
+	padding:10px 20px ;
+}

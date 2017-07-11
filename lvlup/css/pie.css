@@ -1,0 +1,36 @@
+#divClear {
+    clear: left;
+}
+#pie{
+	background-color:rgba(0,0,0,0.5);
+}
+#cajaLogo {
+    float: left;
+    height: 140px;
+    width: 440px;
+}
+#cajaLogo #logo {
+    height: 128px;
+    margin: 10px;
+    margin-left:20px;
+	margin-bottom:0px;
+	float:left;
+}
+#cajaLogo #titulo {
+    width: 280px;
+    height: 120px;
+    margin-top: 3%;
+	float: left;
+    
+}
+#pie p{
+	width:55%;
+	float: left;
+	padding-top:30px;
+	color:#FFFFFF;
+	text-align: center;
+}
+#contenido-pie{
+	width:80%;
+	margin-left:10%;
+}

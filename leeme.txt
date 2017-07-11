@@ -1,0 +1,4 @@
+Partiendo de que XAMPP está instalado en el ordenador destino, e inicializado, se procede a copiar la carpeta lvlup dentro del directorio htdocs.
+En el navegador escribimos http://localhost/phpmyadmin/ y creamos una base de datos llamada lvlup. 
+A continuación se importa el fichero adjunto lvlup.sql que contiene todas las tablas que necesita la aplicación, también habrá que importar usuario.sql para generar el usuario que conecta la pagina con la base de datos, después importamos el fichero datos.sql que contiene los datos para la web, como son: usuarios creados para la web, noticias, comentarios realizados por los usuarios, reviews, etc. Es recomendable cargar este fichero para probar una correcta funcionalidad de la aplicación web.
+Una vez hecho todo esto, ya se puede navegar por la web a través de http://localhost/lvlup/

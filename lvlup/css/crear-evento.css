@@ -1,0 +1,73 @@
+/* ================
+   ===== HOME =====
+   ================*/
+ 
+#contenedor {
+    width: 100%;
+    height: auto;
+    color:white;
+}
+#contenido {
+    width: 80%;
+    float:left;
+}
+#divClear {
+    clear: left;
+}
+
+/**=======CREAR EVENTO====*/
+#contenido form{
+    width:70%;
+    background-color:#E6FAFF;
+    color:#3A3A3A;
+    font-weight:bold;
+    padding:15px;
+    margin-top:20px;
+    margin-left: 13%;
+	margin-bottom:20px;
+    clear:left;
+    border-collapse: separate;
+    display:inline-block;
+}
+form legend{
+    text-align:center;
+    font-size: 30px;
+    font-weight:bold;
+}
+form label{
+    font-size: 20px;
+	margin: 10px;
+	margin-left:0px;
+}
+form #titulo{
+    width: 95%;
+    font-size: 15px;
+}
+form input{
+	
+	margin:10px;
+	margin-left:0px;
+}
+form #plataforma{
+	padding:10px;
+}
+form #etiquetas{
+    width: 50%;
+}
+form p{
+    font-size: 10px;
+    font-weight:normal;
+	padding-top:5px;
+	padding-bottom:10px;
+}
+
+form #bloque_botones {
+    padding-top: 10%;
+    width: 50%;
+    margin-left: 30%;
+}
+#bloque_botones input{
+    margin-right: 20px;
+}
+
+

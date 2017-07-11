@@ -1,0 +1,347 @@
+/* ================
+   ==== HEADER ====
+   ================ */
+body {
+	background-image: url("../img/fondo.jpg");
+	background-repeat: no-repeat;
+	background-color: #004DA7;
+	font-family:sans-serif;
+	width:1349px;
+	margin:0px auto;
+}
+header {
+    height: 140px;
+}
+/* --- */
+#caja-logo {
+    float: left;
+    height: 140px;
+    width: 440px;
+}
+#caja-logo #logo {
+    height: 128px;
+    float: left;
+    margin: 10px;
+    margin-left:20px;
+}
+#caja-logo #titulo {
+    width: 280px;
+    height: 120px;
+    margin-top: 3%;
+    float: left;
+    
+}
+/* --- */
+#caja-avatar {
+    margin-right: 15px;
+    margin-left:10px;
+    float: right;
+    height: 140px;
+}
+#caja-avatar img {
+    width: 120px;
+    height: 120px;
+    float: right;
+    margin-top:10px;
+}
+/**/
+#botones {
+    float: right;
+}
+#botones a {
+    text-decoration:none;
+}
+
+/* ================
+   == NAVEGACION == 
+   ================ */
+#menu-navegacion {
+    float: left;
+    width: 100%;
+    /*background-color: #1A2231;*/
+    /*Z-index indica el nivel de profundidad cuanto mayor sea el numero mas al frente estarÃ¡, solo funciona si el elemento tiene una posicion asignada*/
+    position:relative;
+    z-index:90;
+    font-weight: bold;
+    
+}   
+#navegacion, ul ,ol, li {
+    list-style:none;
+    /*si no se pone, salen los puntos de lista a la izquierda de cada elemento*/
+}
+            
+#navegacion > ul > li { /*los elementos li directamente encontrados dentro de nav, es decir, no anidados o metidos en otros componentes*/
+    float: left;
+    width: 20%;
+    text-align: center;
+    background-color: #107C10;
+    border-radius: 25px 25px 0px 0px;
+    border-collapse: collapse;
+    /*con esto, los elementos principales de la barra de navegacion forman una linea horizontal en vez de estar todos en forma de lista*/
+}
+            
+#navegacion a {
+    background-color:none; /*color de la barra, negro*/
+    color:#fff; /*color de la letra, blanco*/
+    text-decoration:none; /*si no se pone, por defecto subraya todos los elementos visibles en la barra*/
+    padding:.8em 1.25em; /*si no se especifica nada, el texto esta muy ajustado a cada casilla de la barra. 10px de alto y 12px de ancho*/
+    display:block;
+    /*si no se pone, los elementos estÃ¡n por defecto en display inline, se pegan arriba (las lineas intentan juntarse) y no se quedan bien desplegados en pantalla y en las sublistas.
+    poniendo block, los trata como bloques para que tengan mejor separacion y despliegue*/
+}
+                    
+#navegacion li ul {
+    border-radius:0px 0px 0px 0px;
+    display:none;
+    position:absolute; /*los submenu desplegados aparecen ajustados a la altura de su menu padre, es decir, alineados*/
+    min-width:20%;
+    background-color: #107C10;
+}
+
+#navegacion ul > li:hover {
+    background-color:#035300;
+}/*para resaltar el boton*/
+            
+#navegacion ul > li:hover > ul {
+    display:block;
+}
+            
+#navegacion li ul li {
+    position:relative;
+}
+            
+#navegacion li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+/* ================
+   === REGISTRO === 
+   ================ */
+#capa {
+    display: none;
+    opacity: 0.6;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 101;/*lA CAPA ES 101 PARA ESTAR POR ENCIMA DEL MENU Y ASI SE VEA TODO GRIS*/
+    background: #808080;
+}
+#buttonRegistro {
+    background: #FF7E28;
+    border: none;
+    border-radius: 4px;
+    color: #FFE0CA;
+    font-size: 15px;
+    cursor: pointer;
+    height: 57.5px;
+	width:122px;
+    margin-top: 10px;
+    font-weight: 700;
+	display:block;
+}
+/* --- */
+#registro {
+    box-shadow: rgba(0, 0, 0, 0.74902) 3px 3px 26px 0px;
+    background-color: rgb(3, 128, 0);
+    margin: auto 40%;
+    display: none;
+    margin-top: 5%;
+    position: absolute;
+    width: 240px;
+    height: auto;  
+    z-index:102 ;/*La capa es 102 para estar por encima de lo demas*/
+    padding: 0px;
+  /*  min-width: 500px;*/
+}
+#headerRegistro {
+    background-color: #1A2231;
+}
+#headerRegistro #tituloRegistro {
+    padding: 20px;
+    display: inline-block;
+    /*width: 80%;*/
+    text-transform: uppercase;
+    font-size: .8em;
+    color: white;
+}
+#headerRegistro #closeRegistro {
+    border-left: 1px solid #e0e0e1;
+    width: 7%;
+    display: inline-block;
+    text-align: center;
+    padding:20px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
+/* --- */
+#registro form {
+    padding: 4%;
+}
+#inputsRegistro input {
+    border: 1px solid #c0c1c3;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 180px;
+	margin-left:10px;
+}
+#registro form p {
+    margin: 0px;
+}
+#inputsRegistro {
+    width: 50%;
+    /*float: left;*/
+	text-align:center;
+}
+#opcionesConsolas {
+    width: 48%;
+    float: left;
+    padding: 1%;
+    border-radius: 3px;
+}
+#opcionesConsolas fieldset {
+    padding: 5%;
+    border: solid 1px white;
+}
+#opcionesConsolas fieldset legend {
+    color: white;
+    text-transform: uppercase;
+    font-size: .8em;
+}
+#opcionesConsolas::after {
+    clear: both;
+}
+
+/* ===========================
+   ==== Buscador Avanzado ====
+   =========================== */
+#busqueda{
+		margin-top: 11px;
+		margin-right: 10px;
+		position: relative;
+		float: right;
+		background-color: rgb(48, 48, 48);
+		width: 100%;
+		border-radius: 4px;
+		color:white;
+   }
+#buscadorAvanzado {
+    margin-top: 11px;
+	margin-right:10px;
+    /*position: relative;*/
+    float: right;
+    /*background-color: #303030;*/
+    width: 25%;
+    /*border-radius: 4px;*/
+}
+
+/* ===============
+   ==== LOGIN ====
+   =============== */
+#capaSesion {
+    display: none;
+    opacity: 0.6;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 101;/*lA CAPA ES 101 PARA ESTAR POR ENCIMA DEL MENU Y ASI SE VEA TODO GRIS*/
+    background: #808080;
+}
+
+
+#inicioSesion {
+    box-shadow: rgba(0, 0, 0, 0.74902) 3px 3px 26px 0px;
+    background-color: rgb(3, 128, 0);
+    margin: auto 40%;
+    margin-top: 5%;
+    display: none;
+    position: absolute;
+    width: 250px;
+    height: auto;
+    z-index:102 ;/*La capa es 102 para estar por encima de lo demas*/
+    
+}
+#headerSesion {
+    background-color: #1A2231;
+}
+#headerSesion #tituloSesion {
+    padding: 5%;
+    display: inline-block;
+    width: 70%;
+    text-transform: uppercase;
+    font-size: .8em;
+    color: white;
+}
+#headerSesion #closeSesion {
+    border-left: 1px solid #e0e0e1;
+    width: 7%;
+    display: inline-block;
+    text-align: center;
+    padding: 5%;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
+/* --- */
+#inicioSesion form {
+    padding: 6%;
+}
+#inputsSesion{
+    text-align: center;
+}
+#inputsSesion input {
+    border: 1px solid #c0c1c3;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding:10px;
+    width: 89%;
+}
+#inicioSesion form p {
+    margin: 0px;
+}
+#iniciar {
+    padding:20px;
+    display:inline-block;
+    color:#fff;
+    background:#1A2231;
+    text-decoration: none;
+    //margin:20px;
+    margin-top:0px;
+}
+#iniciar:hover {
+    background:#037E8C;
+}
+#buttonSesion{
+    background: #FF7E28;
+    border: none;
+    border-radius: 4px;
+    color: #FFE0CA;
+    font-size: 15px;
+    cursor: pointer;
+    height: 57.5px;
+    width:122px;
+    margin-top: 5px;
+    font-weight: 700;
+    display:block;
+}
+#span{
+	display:block;
+	font-size:.8em;
+	margin:0px 0 20px 10px;
+	padding:5px 0 5px 11px;
+	width:190px
+}
+.confirmacion{
+	background:#C6FFD5;
+	border:1px solid green;
+	}
+.negacion{
+	background:#ffcccc;
+	border:1px solid red
+}

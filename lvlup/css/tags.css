@@ -1,0 +1,235 @@
+/* =================
+   ===== QUIZS =====
+   ================= */
+#contenedor {
+    width: 100%;
+   /* background-image: url("../img/background.png");
+    background-repeat: repeat-y;
+    background-size: contain;*/
+}
+#contenido {
+    width: 80%;
+}
+#divClear {
+    clear: left;
+}
+.tagsContents {
+    width: 90%;
+    padding: 2% 4%;
+    margin: 0px auto;
+    font-weight: bold;
+    position: relative;
+}
+.listContents {
+	list-style: none;
+}
+.headerRow {
+	position: relative;
+}
+.headerRow .verMas {
+    width: 11.43%;
+    padding: .5em;
+    border-bottom: 5px solid #3B004A;
+    color: white;    
+   background: #1A2231;
+    font-weight: bold;
+    font-size: 1.3em;
+    float: right;
+    text-align: center;
+}
+.headerRow .verMas:hover {	
+	background: #D85B17;
+}
+.destacIcon {
+	width: 35px;
+    height: 35px;
+    display: block;
+    position: absolute;
+    left: 4px;
+    top: 1px;
+    background-size: contain;
+}
+.destacTitle {
+    padding: 0.5em;
+    border-bottom: 5px solid #3B004A;
+    padding-left: 52px;
+    color: white;
+    background: #1A2231;
+    border-radius: 0px;
+    font-weight: normal;
+}
+.contentRow {
+    margin: 0px auto 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: white;
+}
+.contentRow li {
+	display: block;
+    margin: 0px 2%;
+    float: left;
+    width: 20%;
+	list-style: none;
+}
+.contentRow li:last-child {
+	clear: both; 
+}
+.contentRow li p {
+    text-align: center;
+    color: black;
+    font-weight: normal;
+    margin-bottom: 10%;
+}
+.destacBg {
+    margin: 20px auto;
+    width: 90%;
+    border: 2px solid #3B004A;
+    background-size: cover;
+    border-radius: 3px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background-size: 100% 100%;
+}
+.destacBg:hover {
+   	transform: none; 
+}
+.destacBg:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05); 
+}
+.md-whiteframe-2 {
+  box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.2), 
+  0 7px 10px 1px rgba(0, 0, 0, 0.14), 
+  0 2px 16px 1px rgba(0, 0, 0, 0.12); 
+}
+.md-whiteframe-2:hover {
+    box-shadow: 0 11px 15px -7px #3B004A, 
+    0 24px 38px 3px rgba(0, 0, 0, 0.14), 
+    0 9px 46px 8px rgba(0, 0, 0, 0.12); 
+}
+
+/* ==========================
+   ===== QUIZ CONTENIDO =====
+   ========================== */
+.quizContent {
+    width: 90%;
+    padding: 2% 4%;
+    margin: 0px auto;
+    font-weight: bold;
+    position: relative;
+}
+.quizContent .headerContent {
+	position: relative;
+}
+.quizContent .headerContent .destacIcon {
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    top: -10px;
+    background-size: contain;
+}
+.quizContent .content {
+    margin: 0px auto 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: white;
+}
+.quizContent .content .imgContent {
+	margin: 20px;
+    width: 201px;
+    height: 300px;
+    border: 2px solid #3B004A;
+    background-size: cover;
+    border-radius: 3px;
+    float: left;
+}
+.quizContent .content .descripcion {
+	text-align: center;
+	width: 50%;
+    padding: 2%;
+}
+.quizContent .content .descripcion h1 {
+	padding: 4%;
+    font-size: 1.5em;
+    background: #3B004A;
+    color: white;
+    text-align: left;
+}
+.quizContent .content .descripcion #descripcionTexto {
+	padding: 4%;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    height: 130px;
+    overflow-y: auto;
+}
+.quizContent .content .descripcion #descripcionTexto p {
+	padding: 1%;
+}
+.quizContent .content .descripcion button {
+	text-align: center;
+    padding: 5%;
+    background: #1A2231;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 5%;
+}
+.quizContent .content .quiz {
+	clear: both;
+	width: 100%
+}
+.quizContent .content .quiz h1 {
+	width: 90%;
+    margin: 0% auto;
+    background: #3B004A;
+    padding: 1%;
+    color: white;
+}
+.quizContent .content .quiz div:nth-child(2) {
+	width: 88%;
+    margin: 0% auto;
+    padding: 2%;
+}
+.quizContent .content .quiz div p {
+	padding: 1%;
+}
+.quizContent .content .quiz div input{
+	margin-top: -1px;
+}
+#paginacion {
+	padding-bottom: 3%;
+    clear: both;
+}
+ 
+#paginacion ul {
+	list-style:none;
+	text-align: center;
+}
+ 
+#paginacion ul li {
+	display:inline-block;
+	margin-right:10px;
+}
+ 
+#paginacion ul li a {
+	display:block;
+	padding:10px 20px;
+	color:#fff;
+	background:#3B004A;
+	text-decoration: none;
+}
+ 
+#paginacion ul li a:hover {
+	background: rgb(113, 0, 142);
+}
+ 
+#paginacion ul li .active {
+	background: rgb(113, 0, 142);
+	font-weight:bold;
+}

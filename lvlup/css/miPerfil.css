@@ -1,0 +1,292 @@
+/*css de miperfil.html*/
+/* ================
+   ==== HEADER ====
+   ================*/
+body {
+	background-image: url("../img/fondo.jpg");
+	background-repeat: no-repeat;
+	background-color: #0052B0;
+	font-family:sans-serif;
+}
+header {
+    height: 140px;
+}
+/* --- */
+#caja-logo {
+    float: left;
+    height: 140px;
+}
+#caja-logo #logo {
+    height: 128px;
+    float: left;
+    margin: 10px;
+    margin-left:20px;
+}
+#caja-logo #titulo {
+    height: 140px;
+    float: left;
+    
+}
+/* --- */
+#caja-avatar {
+   /* width: 220px;*/
+    margin-right: 15px;
+    margin-left:10px;
+    float: right;
+    height: 140px;
+}
+#caja-avatar img {
+    width: 120px;
+    height: 120px;
+    float: right;
+    margin-top:10px;
+    
+}
+
+#botones {
+    float: right;
+    margin-top:10px;
+}
+#botones a{
+	text-decoration:none;
+}
+/* ================
+   == NAVEGACION == 
+   ================ */
+#menu-navegacion {
+    float: left;
+    width:100%;
+    background-color: #107C10;
+    /*Z-index indica el nivel de profundidad cuanto mayor sea el numero mas al frente estarÃ¡, solo funciona si el elemento tiene una posicion asignada*/
+    position:relative;
+    z-index:100;
+    font-family:sans-serif;
+    font-weight:bold;
+}   
+#navegacion, ul ,ol, li {
+    list-style:none;
+    /*si no se pone, salen los puntos de lista a la izquierda de cada elemento*/
+}
+            
+#navegacion >ul> li /*los elementos li directamente encontrados dentro de nav, es decir, no anidados o metidos en otros componentes*/
+{
+    float: left;
+    width: 20%;
+    text-align: center;
+    background-color: #107C10;
+    border-collapse: collapse;
+    /*con esto, los elementos principales de la barra de navegacion forman una linea horizontal en vez de estar todos en forma de lista*/
+}
+   
+   
+#navegacion a
+{
+    
+    background-color:none; /*color de la barra, negro*/
+    color:#fff; /*color de la letra, blanco*/
+    text-decoration:none; /*si no se pone, por defecto subraya todos los elementos visibles en la barra*/
+    padding:.8em 1.25em; /*si no se especifica nada, el texto esta muy ajustado a cada casilla de la barra. 10px de alto y 12px de ancho*/
+    display:block;
+    
+    /*si no se pone, los elementos estÃ¡n por defecto en display inline, se pegan arriba (las lineas intentan juntarse) y no se quedan bien desplegados en pantalla y en las sublistas.
+    poniendo block, los trata como bloques para que tengan mejor separacion y despliegue*/
+}
+                    
+#navegacion li ul 
+{
+    border-radius:0px 0px 0px 0px;
+    display:none;
+    position:absolute; /*los submenu desplegados aparecen ajustados a la altura de su menu padre, es decir, alineados*/
+    min-width:20%;
+    background-color: #107C10;
+}
+#navegacion ul>li:hover
+{
+    background-color:#035300;
+}/*para resaltar el boton*/
+          
+#navegacion ul>li:hover > ul
+{
+    display:block;
+}
+            
+#navegacion li ul li
+{
+    position:relative;
+}
+            
+#navegacion li ul li ul
+{
+    right:-140px;
+    top:0px;
+}
+
+/* ================
+   === REGISTRO === 
+   ================ */
+#buttonPerfil{
+    background: #FF7E28;
+    border: none;
+    border-radius: 4px;
+   /* padding: 10%;*/
+    color: #FFE0CA;
+    font-size: 15px;
+    cursor: pointer;
+    height: 57.5px;
+	width:122px;
+    /*margin: 30% 0%;*/
+    font-weight: 700;
+	display:block;
+}
+#buttonSesion{
+    background: #FF7E28;
+    border: none;
+    border-radius: 4px;
+    color: #FFE0CA;
+    font-size: 15px;
+    cursor: pointer;
+    height: 57.5px;
+	width:122px;
+    /*margin: 30% 0%;*/
+    margin-top: 5px;
+    font-weight: 700;
+	display:block;
+}
+
+
+
+/* ===========================
+   ==== Buscador Avanzado ====
+   =========================== */
+#buscadorAvanzado {
+    margin-top: 11px;
+	margin-right:10px;
+    position: relative;
+    float: right;
+    background-color: #303030;
+    width: 25%;
+    border-radius: 4px;
+}
+#buscadorAvanzadoHeader {
+    color: white;
+    height: 28px;
+    cursor: pointer;
+}
+#tituloBuscadorAvanzado {
+    padding: 1% 2% 1% 2%;
+    width: 85%;
+    display: inline-block;
+}
+#tituloBuscadorAvanzado p {
+    display: inline;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: .8em;
+    color: #C5C5C5;
+}
+#abrirBuscadorAvanzado {
+    text-align: center;
+    padding: 1.5%;
+    display: inline-block;
+    width: 6%;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(168, 198, 255);
+}
+#buscadorAvanzadoContent {
+    background-color: rgb(3, 128, 0);
+    display: none;
+    display: block;
+    position: absolute;
+    z-index: 99;
+    display: none;
+    width: 94%;
+    padding:3%;
+}
+#buscadorAvanzadoContent form {
+    padding: 2%;
+}
+/* --- */
+#buscadorBotones {
+    width: 100%;
+    margin-bottom: 4%;
+}
+#buscadorBotones input {
+    border: 1px solid #c0c1c3;
+    border-radius: 4px;
+    padding: 4%;
+    width: 90%;
+    margin-bottom: 2%;
+}
+/* --- */
+#opcionesBuscador {
+    padding: 1%;
+    border-radius: 3px;
+    text-align: center;
+}
+#opcionesBuscador fieldset {
+    padding: 3%;
+    border: solid 1px white;
+    text-align: left;
+}
+#opcionesBuscador fieldset legend {
+    color: white;
+    text-transform: uppercase;
+    font-size: .8em;
+}
+#opcionesBuscador p { 
+    margin-bottom: 5%;
+}
+#opcionesBuscador input {
+    display: inline-block;
+    width: 12%;
+}
+#btnBuscadorAvanzado {
+    display: inline-block !important;
+    width: 30% !important;
+    background-color: white;
+    border: 1px solid #c0c1c3;
+    border-radius: 4px;
+    margin-top: 4%;
+    padding: 4%;
+    cursor: pointer;
+}
+/*-----texto que pone informacion sobre tu perfil*/
+#tuPerfil{
+	width:100%;
+	float:left;
+	background-color:#107C10;
+	color: white;
+}
+ #tuPerfil p{
+	font-size:20px;
+	padding-top: 10px;
+	padding-bottom:10px;
+	padding-left:10px;
+}
+/*==============parte de la imagen y la informacion del usuario*/
+#informacion{
+	float:left;
+	width:80%;
+	margin-left:10%;
+	margin-top:10px;
+	background-color:white;
+}
+#imagenPerfil{
+	width:20%;
+	float:left;
+	padding:5px;
+}
+#descripcion{
+	float:left;
+	width:78%;
+}
+#descripcion p{
+	padding:5px;
+}
+#descripcion #valoraciones{
+	height:20px;
+}
+#divClear {
+    clear: both;
+}

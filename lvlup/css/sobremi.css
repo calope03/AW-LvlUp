@@ -1,0 +1,58 @@
+/*css sobremi.html*/
+
+#divClear {
+    clear: both;
+}
+#contenido{
+	width:80%;
+	margin-left:10%;
+	margin-bottom:20px;
+	background-color:white;
+}
+
+#editar {
+	width:50%;
+	padding-left:30px;
+	padding-top:20px;
+	padding-bottom:20px;
+	float:left;
+}
+
+#editar input{
+	width: 300px;
+	padding: 5px;
+	margin:  5px;
+	margin-left: 0px;
+}
+#avatar{
+	float:left;
+	margin-left:5%;
+	margin-top:20px;
+	width:40%;
+}
+#cambiarImagen{
+	width:70%;
+}
+#enviar{
+	position:relative;
+	padding:5px;
+	width:100px;
+	margin-top:40px;
+	margin-bottom:20px;
+	margin-left:40%;
+}
+span{
+	display:block;
+	font-size:.8em;
+	margin:0px 0 10px;
+	padding:5px 0 5px 11px;
+	width:200px
+}
+.confirmacion{
+	background:#C6FFD5;
+	border:1px solid green;
+	}
+.negacion{
+	background:#ffcccc;
+	border:1px solid red
+}

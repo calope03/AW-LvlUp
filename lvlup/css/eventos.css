@@ -1,0 +1,110 @@
+/* ================
+   ===== HOME =====
+   ================*/
+
+
+#contenedor {
+    width: 100%;
+}
+#contenido {
+    width: 80%;
+}
+#divClear {
+    clear: left;
+}
+
+
+
+/* === EVENTOS === */
+
+#eventos{
+	width:100%;
+	float:left;
+}
+
+div.evento{
+	margin:10px 2.5%;
+	width:95%;
+	padding: 1% 0% 6% 10px;
+	background-color: white;
+	border: 5px solid black;
+}
+
+.evento img{
+	width: 25%;
+	float: left;
+	
+}
+
+.evento ul{
+	float:left;
+	width:75%;
+	padding-top:1%;
+	
+}
+
+.evento li{
+	padding:1% 1% 3% 4%;
+}
+
+
+#datos_evento_izquierda{
+	margin-right:10%;
+	width: 20%;
+	float: left;
+}
+
+#descripcion{
+	hyphens: auto;
+	word-break: break-all;
+	width: 50%;
+	float: left;
+	
+
+}
+
+
+#datos_evento_derecha{
+	padding:0.75% 5% 0% 5%;
+	width: 10%;
+	float: left;
+	
+	}
+	
+#datos_evento_derecha p{
+	padding: 2%;
+	border: 1px solid black;
+}
+
+#paginacion {
+	/*margin-left:25%;*/
+	padding:20px;
+	clear:both;
+}
+ 
+#paginacion ul {
+	list-style:none;
+	text-align: center;
+}
+ 
+#paginacion ul li {
+	display:inline-block;
+	margin-right:10px;
+}
+ 
+#paginacion ul li a {
+	display:block;
+	padding:10px 20px;
+	color:#fff;
+	background:#1A2231;
+	text-decoration: none;
+}
+ 
+#paginacion ul li a:hover {
+	background:#037E8C;
+}
+ 
+#paginacion ul li .active {
+	background:#037E8C;
+	font-weight:bold;
+}

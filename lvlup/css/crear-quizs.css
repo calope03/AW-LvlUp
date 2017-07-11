@@ -1,0 +1,269 @@
+/* =================
+   ===== QUIZS =====
+   ================= */
+#contenedor {
+    width: 100%;
+   /* background-image: url("../img/background.png");
+    background-repeat: repeat-y;
+    background-size: contain;*/
+}
+#contenido {
+    width: 80%;
+}
+#divClear {
+    clear: left;
+}
+
+/* ======================
+   ===== CREAR QUIZ =====
+   ====================== */
+.quizCrear {
+    width: 90%;
+    padding: 2% 4%;
+    margin: 0px auto;
+    font-weight: bold;
+    position: relative;
+}
+.quizCrear .headerCrear {
+	position: relative;
+}
+.quizCrear .headerCrear .destacIcon {
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    top: -10px;
+    background-size: contain;
+}
+.quizCrear .headerCrear .destacTitle {
+    padding: 0.5em;
+    border-bottom: 5px solid #107C10;
+    padding-left: 52px;
+    color: white;
+    background: #1A2231;
+    border-radius: 0px;
+    font-weight: normal;
+}
+.quizCrear .content {
+    margin: 0px auto 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: white;
+}
+
+.quizCrear .content form {
+    width: 95%;
+}
+.quizCrear .content section {
+    padding: 5px;
+}
+.quizCrear .content section:nth-child(2) {
+    padding: 5%;
+    padding-top: 0%;
+}
+.quizCrear .content section p {
+    padding: 2%;
+    padding-bottom: 0%;
+}
+.quizCrear .content section p span {
+    color: #107C10;
+    font-size: .9em;
+}
+.quizCrear .content form h1 { 
+	padding: 5px;
+    background: #1A2231;
+    color: white;
+    font-size: 1em;
+    font-weight: normal;
+}
+.quizCrear .content form input { 
+	padding: 5px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    width: 90%;
+    margin: 2%;
+}
+.quizCrear .content form select { 
+	padding: 3%;
+    border: 1px solid grey;
+    border-radius: 4px;
+    width: 96%;
+    margin: 2%;
+}
+.quizCrear .content form textarea { 
+	width: 90%;
+    padding: 3%;
+    margin: 2%;
+}
+.quizCrear .content #test  {
+	width: 20%;
+    margin: 0% auto;
+    background: #FF7E28;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;*/
+    margin-top: 10px;
+    font-weight: 700;
+    display: block;
+}
+
+/* ========================
+   ===== CREAR EDITAR =====
+   ======================== */
+.quizCrear {
+    width: 90%;
+    padding: 2% 4%;
+    margin: 0px auto;
+    font-weight: bold;
+    position: relative;
+}
+.quizCrear .headerCrear {
+	position: relative;
+}
+.quizCrear .headerCrear .destacIcon {
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    top: -10px;
+    background-size: contain;
+}
+.quizCrear .headerCrear .destacTitle {
+    padding: 0.5em;
+    border-bottom: 5px solid #107C10;
+    padding-left: 60px;
+	padding-top: 20px;
+    color: white;
+    background: #1A2231;
+    border-radius: 0px;
+    font-weight: normal;
+	height: 30px;
+}
+
+.quizCrear .headerCrear * {
+    /*width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    top: -10px;
+    background-size: contain;*/
+	margin: 10px;
+	
+}
+
+.quizCrear .content {
+    margin: 0px auto 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: white;
+}
+
+.quizCrear .content form {
+    width: 95%;
+}
+.quizCrear .content section {
+    padding: 5%;
+}
+.quizCrear .content section:nth-child(2) {
+    padding: 5%;
+    padding-top: 0%;
+}
+.quizCrear .content section p {
+    padding: 2%;
+    padding-bottom: 0%;
+}
+.quizCrear .content section p span {
+    color: #107C10;
+    font-size: .9em;
+}
+.quizCrear .content form h1 { 
+	padding: 3%;
+    background: #1A2231;
+    color: white;
+    font-size: 1em;
+    font-weight: normal;
+}
+.quizCrear .content form input { 
+	padding: 5px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    width: 90%;
+    margin: 2%;
+}
+
+.quizCrear .content .test input { 
+	padding: 5px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    width: 60%;
+    margin: 2%;
+}
+#radio{ 
+	padding: 5px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    width: 10%;
+	/*display:block;*/
+    margin: 2%;
+}
+
+.quizCrear .content .test p { 
+	/*padding: 3%;*/
+    /*border: 1px solid grey;*/
+    /*border-radius: 4px;*/
+    /*width: 60%;*/
+   /* margin: 2%;*/
+}
+
+.quizCrear .content form select { 
+	padding:5px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    width: 90%;
+    margin: 2%;
+}
+.quizCrear .content form textarea { 
+	width: 90%;
+    padding: 3%;
+    margin: 2%;
+}
+.quizCrear .content #test #btn-quizEditar {
+	width: 20%;
+    margin: 0% auto;
+    background: #FF7E28;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;*/
+    margin-top: 10px;
+    font-weight: 700;
+    display: block;
+}
+
+#btn-quizCrear {
+	width: 15%;
+    margin: 0% auto;
+    background: #1F7E28;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;*/
+    margin-top: 10px;
+	margin-bottom: 10px;
+    font-weight: 700;
+    display: block;
+}#btn-quizCrear
+
+
+
+
+    
+

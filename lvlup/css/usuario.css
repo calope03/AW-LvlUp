@@ -1,0 +1,168 @@
+/* ================
+   ===== HOME =====
+   ================*/
+#contenedor {
+    width: 100%;
+   /* background-image: url("../img/background.png");
+    background-repeat: repeat-y;
+    background-size: contain;*/
+}
+#contenido{
+	width:80%;
+	
+	margin-bottom:20px;
+}
+#divClear {
+    clear: left;
+}
+
+.homeContents {
+    width: 90%;
+    padding: 2% 4%;
+    margin: 0px auto;
+    font-weight: bold;
+    position: relative;
+}
+.listContents {
+	list-style: none;
+}
+.headerRow {
+	position: relative;
+	
+}
+.destacIcon {
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    /*top: -10px;*/
+    background-size: contain;
+	margin-top:2px;
+	float:left;
+}
+.destacTitle {
+	width: 95%;
+	padding: 0.55em;
+	border-bottom: 1px solid #FFFFFF;
+	padding-left: 52px;
+	color: white;
+	background: #1A2231;
+	border-radius: 5px 5px 5px 5px;
+	font-weight: bold;
+	font-size: 1.3em;
+	float: left;
+}
+
+
+.contentRow {
+    margin:  auto ;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.contentRow li {
+	display: block;
+    margin: 10px 2%;
+    float: left;
+    width: 20%;
+	list-style: none;
+}
+.contentRow li:last-child {
+	clear: both; 
+}
+.contentRow li p {
+    text-align: center;
+   color:white;
+    font-weight: normal;
+}
+.destacBg {
+    margin: 20px auto;
+    width: 100%;
+	height:198px;
+    /*padding-bottom: 140%;*/
+    border: 2px solid #B1B2B5;
+    background-size: cover;
+    border-radius: 3px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background-size: 100% 100%;
+}
+.destacBg:hover {
+   	transform: none; 
+}
+.destacBg:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05); 
+}
+.md-whiteframe-2 {
+  box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.2), 
+  0 7px 10px 1px rgba(0, 0, 0, 0.14), 
+  0 2px 16px 1px rgba(0, 0, 0, 0.12); 
+}
+.md-whiteframe-2:hover {
+    box-shadow: 0 11px 15px -7px orange, 
+    0 24px 38px 3px rgba(0, 0, 0, 0.14), 
+    0 9px 46px 8px rgba(0, 0, 0, 0.12); 
+}
+
+
+
+
+/*css sobreel.html*/
+#menu-sobremi{
+    background-color: #3266FF;
+}
+#divClear {
+    clear: both;
+}
+
+#editar {
+	width:50%;
+	padding-left:30px;
+	padding-top:20px;
+	padding-bottom:20px;
+	float:left;
+}
+
+#editar input{
+	width: 300px;
+	padding: 5px;
+	margin:  5px;
+	margin-left: 0px;
+}
+#avatar{
+	float:left;
+	margin-left:5%;
+	margin-top:20px;
+	width:40%;
+}
+#cambiarImagen{
+	width:70%;
+}
+#informacion{
+	float:left;
+	width:91%;
+	margin-left:5%;
+	margin-top:10px;
+	background-color:white;
+}
+#imagenPerfil{
+	width:20%;
+	float:left;
+	padding:5px;
+}
+#descripcion{
+	float:left;
+	width:78%;
+}
+#descripcion{
+	float:left;
+	width:78%;
+}
+#descripcion p{
+	padding:5px;
+}
+#descripcion #valoraciones{
+	height:20px;
+}

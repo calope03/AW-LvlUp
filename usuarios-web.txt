@@ -1,0 +1,23 @@
+Usuarios con permiso de administracion:
+Usuario: admincarmen		Contraseña: carmen
+Usuario: admincesar		Contraseña: admincesar
+Usuario: adminalex		Contraseña: adminalex
+Usuario: adminjesus		Contraseña: adminjesus
+
+Usuarios con permiso de editor:
+Usuario: editorcarmen		Contraseña: carmen
+Usuario: editorcesar		Contraseña: editcesar
+Usuario: editoralex		Contraseña: editoralex
+Usuario: editorjesus		Contraseña: editjesus
+
+Usuarios con permiso de escritor:
+Usuario: escritorcarmen		Contraseña: carmen
+Usuario: escritorcesar		Contraseña: escesar
+Usuario: escritoralex		Contraseña: escritor
+Usuario: escritorjesus		Contraseña: escritor
+
+Usuarios con permiso de registrado:
+Usuario: carmen			Contraseña: carmen
+Usuario: cesar			Contraseña: godino
+Usuario: alex			Contraseña: alejandro
+Usuario: jesus			Contraseña: jesusm

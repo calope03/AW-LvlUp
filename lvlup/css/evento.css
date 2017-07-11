@@ -1,0 +1,84 @@
+/* ================
+   ===== HOME =====
+   ================*/
+
+
+#contenedor {
+    width: 100%;
+}
+#contenido {
+    width: 80%;
+	
+}
+#divClear {
+    clear: left;
+}
+
+/* === EVENTOS === */
+
+#evento{
+	float:left;
+	width:80%;
+	/*arriba derecha abajo izquierda*/
+	padding:10px 10px 0px 10px;
+	margin:20px 10% 20px 10%;
+	background-color:#E6FAFF;
+	color:#000000;
+
+}
+
+#nombreEvento{
+	float:left;
+	width:30%;
+	padding:0px 35% 0px 35%;
+	
+
+}
+
+#evento img{
+	width: 30%;
+	float: left;
+	
+}
+#evento h1{
+	width:65%;
+	padding-top:5%;
+	float: left;
+	font-size:150%;
+	
+}
+
+#participantes{
+	float:left;
+	width:50%;
+	padding:2.5% 25% 2.5% 25%;
+
+}
+
+#participantes table{
+	width:100%;
+	border-collapse: collapse;
+}
+
+#participantes table, th, td{
+	border: 1px solid black;
+}
+
+#participantes th, td{
+	padding:2% 10% 2% 10%; 
+	font-size:150%;
+	height:20px;
+	text-align:center;
+	background-color:white;
+}
+
+#descripcion{
+	float:left;
+	width:100%;
+	/*arriba derecha abajo izquierda*/
+	padding:20px 0 10px 0;
+	font-size:125%;
+	text-align:justify;
+}
+
+
