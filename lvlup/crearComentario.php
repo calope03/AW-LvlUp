@@ -12,4 +12,6 @@
 	$comentario->guardarNuevoComentario($autor, $texto, $id_contenido);
 
 	header("Location:".$url."");
+
+
 ?>
